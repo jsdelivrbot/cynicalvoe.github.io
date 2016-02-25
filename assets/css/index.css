@@ -1,0 +1,48 @@
+﻿#logo {
+    padding-top: 5em;
+	margin:auto;
+}
+
+body { 
+  background-color: #000000;
+  font-family: 'Play', sans-serif;
+}
+
+.Title {
+    color:black;
+}
+
+html {
+    overflow-y:scroll;
+}
+
+.Title {
+	padding: 0.25em;
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.faLink {
+	color:#FFFFFF;
+}
+
+.txtLinks {
+	position: fixed;
+	margin-top: auto;
+	margin-left: auto;
+}
+
+.name {
+	font-size: 30px;
+	color: #FFFFFF;
+	position: fixed;
+	left: 10px;
+	top: 5px;
+}
