@@ -1,4 +1,4 @@
-idle
+message <test test test>
 idle
 idle
 idle
