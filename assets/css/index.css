@@ -34,7 +34,7 @@ a:hover {
 }
 
 .txtLinks {
-	position: fixed;
+	position: relative;
 	margin-top: auto;
 	margin-left: auto;
 }
