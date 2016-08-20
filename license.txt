@@ -68,5 +68,3 @@ The following are PROHIBITED actions that the Customer may not take in regard to
 	(c): Modify, edit, add or remove code or resources to and from the Product. 
 	(d): Circumvent any protection or copyright safeguards that are included in the Product.
 	(e): Produce or procure libel against the Product, the Vendor, or any Associated Parties.
-
-NONCE: "%%__NONCE__%%"
