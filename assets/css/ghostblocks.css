@@ -32,7 +32,7 @@ body {
 }
 
 .pageIcon{
-	position: fixed;
+	position: relative;
 	top: 125px;
 	left: 50%;
 	margin-right: -50%;
