@@ -54,11 +54,11 @@
 <div id="white">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-                <p>Welcome to the <b>Challenges</b> page! While it may not look like anything now, I hope to add some
-                <i>really cool</i> content soon. Until then, this is pretty much just a placeholder page.
-                <br/>
-                *Sorry*</p>
+			<div class="col-lg-8 col-lg-offset-2 centered">
+                <p class="hylian">Type the name of Link's horse.</p>
+				<p>Welcome to <b>Challenges</b> - a set of technological, nerdy, and challenging tasks designed to make
+				you think. To begin the challenge, simply click the button below!</p>
+                <button class="btn btn-success" type="submit" id="proceed" onclick="clicked()">Proceed</button>
 			</div>
 
 		</div>
@@ -104,5 +104,16 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="assets/js/bootstrap.min.js"></script>
+<script>
+    document.getElementById("proceed").disabled=true;
+
+    cheet("e p o n a", function(){
+        document.getElementById("proceed").disabled=false;
+    })
+
+    function clicked() {
+        alert("Nice job! I haven't exactly made anything ELSE, but you're off to a fine start.")
+    }
+</script>
 </body>
 </html>

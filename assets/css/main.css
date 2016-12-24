@@ -10,6 +10,26 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Bungee:400,700);
 
+@font-face {
+    font-family: "Hylian";
+    src: url('../fonts/Hylian.eot');
+    src: url('../fonts/Hylian.woff') format('woff'), url('../fonts/Hylian.ttf') format('truetype'),
+        url('../fonts/Hylian.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hylian {
+    font-family: "Hylian", Sans-Serif;
+    font-size: 32px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 body {
   	background-color: #ffffff;
   	font-family: 'Montserrat', sans-serif;
