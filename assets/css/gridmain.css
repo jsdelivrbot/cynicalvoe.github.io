@@ -9,26 +9,32 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Bungee:400,700);
+@import url(https://fonts.googleapis.com/css?family=VT323:400,700);
 
 @font-face {
-    font-family: "Hylian";
-    src: url('../fonts/Hylian.eot');
-    src: url('../fonts/Hylian.woff') format('woff'), url('../fonts/Hylian.ttf') format('truetype'),
-        url('../fonts/Hylian.svg') format('svg');
+    font-family: 'Glitch';
+    src: url('../fonts/Glitch.eot');
+    src: local('☺'), url('../fonts/Glitch.woff') format('woff'), url('../fonts/Glitch.ttf') format('truetype'), url('../fonts/Glitch.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
+.grid {
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+}
 
-.hylian {
-    font-family: "Hylian", Sans-Serif;
-    font-size: 32px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.glitch {
+    font-family: "Glitch", Sans-Serif;
+    font-size: 24px;
+}
+
+.large {
+    font-size: 70px;
+}
+
+.small {
+	font-size: 14px;
 }
 
 body {
@@ -82,7 +88,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #3f3f3f;
+    color: #094707;
     text-decoration: none;
     outline: 0;
 }
@@ -117,8 +123,8 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #3f3f3f;
-	border-color: #3f3f3f;
+	background-color: #094707;
+	border-color: #094707;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -145,7 +151,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #3f3f3f;
+  background-color: #094707;
 }
 
 
@@ -172,7 +178,7 @@ a:after {
 
 
 #footer {
-	background-color: #2f2f2f;
+	background-color: #0f350e;
 	padding-top: 50px;
 	padding-bottom: 50px; 
 }
@@ -261,7 +267,7 @@ bt {
 
 .glyphicon {
 	font-size: 40px;
-	color: #3f3f3f;
+	color: #094707;
 }
 
 .profileimage {
