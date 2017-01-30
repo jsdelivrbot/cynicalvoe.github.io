@@ -11,12 +11,12 @@
 	<title>xFyreWolfx</title>
 
 	<!-- CSS -->
-	<link href="assets/css/bootstrap.css" rel="stylesheet">
-	<link href="assets/css/main.css" rel="stylesheet">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="../assets/css/main.css" rel="stylesheet">
+	<link href="../assets/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="assets/js/hover.zoom.js"></script>
-	<script src="assets/js/hover.zoom.conf.js"></script>
+	<script src="../assets/js/hover.zoom.js"></script>
+	<script src="../assets/js/hover.zoom.conf.js"></script>
 	<script src="http://cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,34 +37,39 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html">xFyreWolfx</a>
+			<a class="navbar-brand" href="../">xFyreWolfx</a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="challenges.html">Challenges</a></li>
-				<li><a href="devblog.html">Dev Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="../projects">Projects</a></li>
+				<li><a href="../challenges">Challenges</a></li>
+				<li><a href="../contact">Contact</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
 </div>
-
-<!-- +++++ Posts Lists +++++ -->
-<div id="white">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 centered">
-                <p class="hylian">Type the name of Link's horse.</p>
-				<p>Welcome to <b>Challenges</b> - a set of technological, nerdy, and challenging tasks designed to make
-				you think. To begin the challenge, simply click the button below!</p>
-                <button class="btn btn-success" type="submit" id="proceed" onclick="clicked()">Proceed</button>
+	
+	
+	<!-- +++++ Software Section +++++ -->
+	
+	<div class="container pt">
+		<div class="row mt">
+			<div class="col-lg-6 col-lg-offset-3 centered">
+				<h3>Software</h3>
+				<hr>
+				<p>A collection of software I have developed over the years. Nothing too fancy here, but why not?</p>
 			</div>
-
 		</div>
-	</div>
-</div>
-
+		<div class="row mt centered">	
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>iCrypt</h4>
+                <p>iCrypt is a Java-based file encryption program, meant to keep your most important documents safe.
+                Although basic, iCrypt comes with support for Blowfish and DES ciphers, along with a built-in key
+                generator. The program can encrypt individual files or whole directories, so be careful!</p>
+				<bt>Version: <b>3.0</b> - <a href="https://github.com/xFyreWolfx/iCrypt/releases">Download Here</a></bt>
+			</div>
+		</div><!-- /row -->
+	</div><!-- /container -->
 
 
 <!-- +++++ Footer Section +++++ -->
@@ -77,7 +82,7 @@
 				<p>
 					<a href="https://spigotmc.org/resources/authors/firebreath15.3556/">SpigotMC</a></br>
 					<a href="https://cubedhost.com">CubedHost</a></br>
-					mc.xfyrewolfx.tech:25565
+					<a href="https://dev.bukkit.org/members/FireBreath15/projects">BukkitDev</a>
 				</p>
 			</div><!-- /col-lg-4 -->
 
@@ -86,30 +91,19 @@
 
 			<div class="col-lg-4">
 				<h4>Copyright</h4>
-				<p>The content on this website is my property, and is not to be (re)distributed without permission.
-					Site theme is <a href="http://blacktie.co/2014/01/stanley-freelancer-theme/">Stanley</a>.</p>
+				<p>&copy; xFyreWolfx, 2015-2017. All Rights Reserved.<br/>
+					Theme: <a href="http://blacktie.co/2014/01/stanley-freelancer-theme/">Stanley</a>.</p>
 			</div><!-- /col-lg-4 -->
 
 		</div>
 
 	</div>
 </div>
+	
 
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/bootstrap.min.js"></script>
-<script>
-    document.getElementById("proceed").disabled=true;
-
-    cheet("e p o n a", function(){
-        document.getElementById("proceed").disabled=false;
-    })
-
-    function clicked() {
-        alert("Nice job! I haven't exactly made anything ELSE, but you're off to a fine start.")
-    }
-</script>
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
