@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bungee:400,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css);
+
+@font-face {
+    font-family: "Hylian";
+    src: url('../fonts/Hylian.eot');
+    src: url('../fonts/Hylian.woff') format('woff'), url('../fonts/Hylian.ttf') format('truetype'),
+    url('../fonts/Hylian.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hacked";
+    src: url('../fonts/hacked.eot');
+    src: url('../fonts/hacked.woff') format('woff'), url('../fonts/hacked.ttf') format('truetype'),
+    url('../fonts/hacked.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    display: inline;
+    padding: 8px 12px 8px 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+}
+
+nav>ul>li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>ul>li:hover,  nav>ul>li:hover a{
+    background-color: white;
+    color: #5e5e5e;
+}
+
+nav>ul {
+    padding: 10px;
+    text-align: center;
+    height: auto;
+}
+
+nav {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #5e5e5e;
+    border-color: transparent;
+    border-radius: 15px 4px 15px 4px;
+    min-width: 300px;
+    font-size: 14px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px 80px 30px 80px;
+}
+
+footer {
+    background-color: #5e5e5e;
+    color: white;
+}
+
+hr {
+    width: 50%;
+    border-color: #5e5e5e;
+}
+
+p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.content {
+    padding: 50px 20px 50px 20px;
+}
+
+.gray {
+    background-color: #f2f2f2;
+}
+
+.white {
+    background-color: white;
+}
+
+.columned table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.columned td {
+    width: 33%;
+}
+
+.caption {
+    color: #7b7b7b;
+}
+
+.caption h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Bungee', sans-serif;
+}
+
+.caption a {
+     color: #5e5e5e;
+     text-decoration: none;
+ }
+
+.caption a:hover {
+    color: darkred;
+}
+
+.alight {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.alight:hover {
+    color: #7b7b7b;
+}
+
+.namelogo {
+    padding: 0;
+    margin: 0;
+    font-family: 'hacked';
+    font-size: 55px;
+    color: #5e5e5e;
+}
+
+.slimcentered {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctext {
+    color: #5e5e5e;
+    font-size: 16px;
+    line-height: 1.8em;
+}

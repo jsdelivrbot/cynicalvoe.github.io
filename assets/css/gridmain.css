@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'Glitch';
-    src: url('../fonts/Glitch.eot');
-    src: local('☺'), url('../fonts/Glitch.woff') format('woff'), url('../fonts/Glitch.ttf') format('truetype'), url('../fonts/Glitch.svg') format('svg');
+    src: url('../../newsite/assets/fonts/Glitch.eot');
+    src: local('☺'), url('../../newsite/assets/fonts/Glitch.woff') format('woff'), url('../../newsite/assets/fonts/Glitch.ttf') format('truetype'), url('../../newsite/assets/fonts/Glitch.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -241,7 +241,7 @@ bt {
     display:block; 
     position:relative; 
     overflow:hidden; 
-    background:transparent url(../img/loader.gif) no-repeat center;
+    background:transparent url(../../newsite/assets/img/loader.gif) no-repeat center;
 }
 
 
@@ -250,7 +250,7 @@ bt {
         top:0; left:0;
         bottom:0; right:0;
         display:none;
-        background-image:url(../img/zoom.png);
+        background-image:url(../../newsite/assets/img/zoom.png);
         background-repeat:no-repeat;
         background-position:center;
     }
