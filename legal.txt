@@ -9,3 +9,4 @@ Fonts used on this website:
 2. Bungee
 3. HACKED (https://watchdogsfont.com/)
 4. FontAwesome
+5. TP-Hylian GC Bold, from The Legend of Zelda
