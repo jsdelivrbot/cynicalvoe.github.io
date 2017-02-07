@@ -1,273 +1,210 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Bungee:400,700);
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Bungee:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
 
 @font-face {
     font-family: "Hylian";
     src: url('../fonts/Hylian.eot');
     src: url('../fonts/Hylian.woff') format('woff'), url('../fonts/Hylian.ttf') format('truetype'),
-        url('../fonts/Hylian.svg') format('svg');
+    url('../fonts/Hylian.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Hacked";
+    src: url('../fonts/hacked.eot');
+    src: url('../fonts/hacked.woff') format('woff'), url('../fonts/hacked.ttf') format('truetype'),
+    url('../fonts/hacked.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-.hylian {
-    font-family: "Hylian", Sans-Serif;
-    font-size: 32px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    display: inline;
+    padding: 8px 12px 8px 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+}
+
+nav>ul>li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>ul>li>a[href="#"] {
+    color: #bababa;
+}
+
+nav>ul>li:hover,  nav>ul>li:hover a{
+    background-color: white;
+    color: #5e5e5e;
+}
+
+nav>ul {
+    padding: 10px;
+    text-align: center;
+    height: auto;
+}
+
+nav {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #5e5e5e;
+    border-color: transparent;
+    border-radius: 15px 4px 15px 4px;
+    min-width: 300px;
     font-size: 14px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
 }
 
-/* Titles */
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Bungee', sans-serif;
-    font-weight: 700;
-    color: #333;
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px 80px 30px 80px;
 }
 
-h1 {
-	font-size: 35px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+footer {
+    background-color: #5e5e5e;
+    color: white;
 }
 
+hr {
+    width: 50%;
+    border-color: #5e5e5e;
+}
 
-
-/* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+     background-color: #76dd54;
+     background-image: -moz-linear-gradient(#76dd54, #4fa533);
+     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#76dd54), to(#4fa533));
+     background-image: -webkit-linear-gradient(#76dd54, #4fa533);
+     border: 0 transparent;
+     width: 125px;
+     height: 40px;
+     border-radius: 5px;
+     color: white;
+     font-size: 13px;
+ }
+
+button:disabled {
+    background-color: #a0a0a0;
+    background-image: -moz-linear-gradient(#a0a0a0, #7a7a7a);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a0a0a0), to(#7a7a7a));
+    background-image: -webkit-linear-gradient(#a0a0a0, #7a7a7a);
+}
+
+button:enabled:hover {
+    background-color: #5faf44;
+    background-image: -moz-linear-gradient(#5faf44, #478234);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5faf44), to(#478234));
+    background-image: -webkit-linear-gradient(#5faf44, #478234);
 }
 
 .centered {
     text-align: center;
 }
 
-/* Links */
-a {
+.content {
+    padding: 50px 20px 50px 20px;
+}
+
+.gray {
+    background-color: #f2f2f2;
+}
+
+.white {
+    background-color: white;
+}
+
+.columned table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.columned td {
+    width: 33%;
+}
+
+.columned4 td {
+    width: 25%;
+}
+
+.caption {
     color: #7b7b7b;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
-    color: #3f3f3f;
-    text-decoration: none;
-    outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+.caption h3 {
     padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Bungee', sans-serif;
 }
 
+.caption a {
+     color: #5e5e5e;
+     text-decoration: none;
+ }
 
-.navbar {
-	text-transform: uppercase;
-	margin-bottom: 0px;
+.caption a:hover {
+    color: darkred;
 }
 
-.navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+.alight {
+    color: #cccccc;
+    text-decoration: none;
 }
 
-.navbar-inverse {
-	background-color: #3f3f3f;
-	border-color: #3f3f3f;
+.alight:hover {
+    color: #7b7b7b;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-	color: white;
+.namelogo {
+    padding: 0;
+    margin: 0;
+    font-family: 'hacked';
+    font-size: 55px;
+    color: #5e5e5e;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+.slimcentered {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.navbar-brand {
-	font-family: 'Bungee', sans-serif;
-	font-weight: 700;
-	font-size: 35px;
-	letter-spacing: 2px;
+.ctext {
+    color: #5e5e5e;
+    font-size: 16px;
+    line-height: 1.8em;
 }
 
-.navbar-inverse .navbar-brand {
-	color: white;
-}
-
-.navbar-inverse .navbar-toggle {
-	border-color: transparent;
-}
-
-.progress-bar-theme {
-  background-color: #3f3f3f;
-}
-
-
-/* Helpers */
-
-.mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-
-/* +++++ WRAP SECTIONS +++++ */
-
-#ww {
-	padding-top: 70px;
-	padding-bottom: 70px;
-	background-color: #f2f2f2;
-}
-
-
-#footer {
-	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px; 
-}
-
-#footer p {
-	color: white;
-}
-
-#footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-}
-
-
-/* +++++ Color Wraps / Blog Page +++++ */
-
-#grey {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #f2f2f2;
-}
-
-#white {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #ffffff;
-}
-
-
-
-/* Blog Date*/
-bd {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #d2d2d2;
-	font-weight: 700;
-}
-
-/* Blog Author*/
-ba {
-	font-size: 12px;
-	text-transform: uppercase;
-}
-
-/* Blog Quote */
-.bq {
-	font-size: 22px;
-	padding-top: 30px;
-}
-
-/* Blog Tags */
-bt {
-	font-size: 12px;
-}
-
-/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
-/* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
-    background:transparent url(../img/loader.gif) no-repeat center;
-}
-
-
-    .zoomOverlay {
-        position:absolute;
-        top:0; left:0;
-        bottom:0; right:0;
-        display:none;
-        background-image:url(../img/zoom.png);
-        background-repeat:no-repeat;
-        background-position:center;
-    }
-
-.zoom2 {
-	opacity: 1;
-}
-
-.zoom2:hover {
-	opacity: 0.5;
-}
-
-/* glyphicon Configuration */
-
-.glyphicon {
-	font-size: 40px;
-	color: #3f3f3f;
-}
-
-.profileimage {
-	width: 250px;
-	height: 250px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+.hylian {
+    font-family: "Hylian";
+    font-size: 32px;
+    margin: 0px;
+    color: #5e5e5e;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
