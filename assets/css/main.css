@@ -158,12 +158,12 @@ button:enabled:hover {
     font-family: 'Bungee', sans-serif;
 }
 
-.caption a {
-     color: #5e5e5e;
+.caption a, #spigotlink {
+     color: #4c4c4c;
      text-decoration: none;
  }
 
-.caption a:hover {
+.caption a:hover, #spigotlink:hover {
     color: darkred;
 }
 
