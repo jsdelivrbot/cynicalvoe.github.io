@@ -1,6 +1,8 @@
+
+/* Preliminary */
+
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css?family=Bungee:400,700");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
 
 @font-face {
     font-family: "Hylian";
@@ -26,8 +28,10 @@
 
 body {
     margin: 0;
-    background-color: #f2f2f2;
 }
+
+
+/* Navigation */
 
 nav>ul>li {
     list-style-type: none;
@@ -69,10 +73,36 @@ nav {
     font-size: 14px;
 }
 
-img {
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: #b5b5b5;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2f8429;
+}
+
+
+/* Content */
+
+#logo img {
     width: 250px;
     height: 250px;
     border-radius: 30px 80px 30px 80px;
+}
+
+#logo p {
+    font-family: 'hacked', monospace;
+    font-size: 55px;
+    color: #5e5e5e;
+}
+
+h3 {
+    color: #5e5e5e;
 }
 
 footer {
@@ -119,9 +149,11 @@ button:enabled:hover {
 
 .centered {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.content {
+.highpadding {
     padding: 50px 20px 50px 20px;
 }
 
@@ -133,78 +165,58 @@ button:enabled:hover {
     background-color: white;
 }
 
-.columned table {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.columned td {
-    width: 33%;
-}
-
-.columned4 td {
-    width: 25%;
-}
-
-.caption {
-    color: #7b7b7b;
-}
-
-.caption h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-    font-family: 'Bungee', sans-serif;
-}
-
-.caption a, #spigotlink {
-     color: #4c4c4c;
-     text-decoration: none;
- }
-
-.caption a:hover, #spigotlink:hover {
-    color: darkred;
-}
-
-.alight {
-    color: #cccccc;
-    text-decoration: none;
-}
-
-.alight:hover {
-    color: #7b7b7b;
-}
-
-.namelogo {
-    padding: 0;
-    margin: 0;
-    font-family: 'hacked';
-    font-size: 55px;
-    color: #5e5e5e;
-}
-
-.slimcentered {
+.slim {
     max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.ctext {
-    color: #5e5e5e;
-    font-size: 16px;
-    line-height: 1.8em;
+.panel {
+    width: auto;
 }
 
 .hylian {
-    font-family: "Hylian";
+    font-family: "Hylian", sans-serif;
     font-size: 32px;
-    margin: 0px;
+    margin: 0;
     color: #5e5e5e;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.hacked {
+    font-family: "Hacked", sans-serif;
+    font-size: 48px;
+    margin: 0;
+    color: #5e5e5e;
+}
+
+.column3, .column2, .column4{
+    min-height: 120px;
+    padding: 10px;
+}
+
+.highminheight {
+    min-height: 200px;
+}
+
+.column4 div {
+    float: left;
+    width: 25%;
+}
+
+.column3 div {
+    float: left;
+    width: 33.333%;
+}
+
+.column2 div {
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+.textspacing {
+    line-height: 1.8em;
 }
