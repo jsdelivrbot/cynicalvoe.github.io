@@ -96,8 +96,11 @@ a:hover {
 
 .image2 {
     padding: 100px 0 !important;
-    background: url("../img/img_staticweb2.png") fixed top;
+    margin: 50px 0 0 0;
+    background: url("../img/img_staticweb2.png") fixed bottom;
     color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 .image3 {
@@ -111,25 +114,14 @@ a:hover {
 
 .image4 {
     padding: 100px 0 !important;
-    background: url("../img/img_staticweb4.png") fixed top;
-    color: white;
-}
-
-.image5 {
-    padding: 100px 0 !important;
     margin: 50px 0 0 0;
-    background: url("../img/img_staticweb5.png") fixed bottom;
+    background: url("../img/img_staticweb4.png") fixed bottom;
     color: white;
     font-weight: bold;
     text-align: center;
 }
 
-.image6 {
-    background: url("../img/img_staticweb6.png") fixed top;
-    color: white;
-}
-
-.image1 h1, .image3 h1, .image5 h1{
+.image1 h1, .image2 h1, .image3 h1, .image4 h1{
     width: 30%;
     padding: 15px;
     background: rgba(7,7,7,0.5);
