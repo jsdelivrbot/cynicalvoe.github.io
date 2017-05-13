@@ -275,3 +275,21 @@ a:hover {
 .bodylist li a:hover {
     color: #065a82;
 }
+
+@media screen and (max-width: 480px){
+    .panel p{
+        width: 90%;
+    }
+
+    .portfolio-large img {
+        width: 300px;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    .footer p {
+        width: 90%;
+    }
+}
