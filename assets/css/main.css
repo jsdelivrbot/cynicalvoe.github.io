@@ -47,6 +47,18 @@ nav li a:hover {
     color: #065a82;
 }
 
+hr {
+    border: 1px solid #555;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.red hr {
+    border: 1px solid white;
+    margin: 10px auto;
+    width: 80%;
+}
+
 /* Content */
 
 i {
@@ -57,6 +69,24 @@ a {
     text-decoration: none;
     color: #bbb;
     font-weight: bold;
+}
+
+button {
+    margin: 20px auto;
+    background: linear-gradient(#3ab3f4, #1465ce);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(#247ef4, #0358c6);
+    cursor: pointer;
 }
 
 a:hover {
@@ -159,6 +189,15 @@ a:hover {
     border-radius: 10px;
 }
 
+.portfolio-large img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.portfolio-large {
+    padding: 20px 0;
+}
+
 .panel table {
     border-collapse: collapse;
     margin: auto;
@@ -206,6 +245,11 @@ a:hover {
 
 .darkblue {
     background-color: #022f40;
+    color: white;
+}
+
+.red {
+    background-color: #db4c36;
     color: white;
 }
 
