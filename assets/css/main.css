@@ -59,6 +59,18 @@ hr {
     width: 80%;
 }
 
+.blue hr {
+    border: 1px solid #8bbfef;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.lightgray {
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    width: 80%;
+}
+
 /* Content */
 
 i {
@@ -255,7 +267,7 @@ a:hover {
 
 .bodylist {
     margin: auto;
-    width: 100%;
+    width: 90%;
     padding: 20px 0;
     text-align: center;
 }
