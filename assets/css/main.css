@@ -5,7 +5,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 961px) {
     /* Navigation */
     nav {
         position: fixed;
@@ -48,7 +48,11 @@ body {
     }
 }
 
-@media screen and (max-width: 768px){
+
+/* Phones */
+
+
+@media screen and (max-width: 960px){
     body {
         overflow-x: hidden;
     }
