@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>xFyreWolfx</title>
+    <title>My Portfolio</title>
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css"/>
-    <script src="//use.fontawesome.com/ce5440294c.js"></script>
+    <link href="../assets/img/favicon.png" rel="icon" type="image/png"/>
+    <script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+    <script src="../assets/js/main.js"></script>
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 
     <style>
@@ -25,7 +27,7 @@
         }
 
         #python {
-            color: greenyellow;
+            color: #78bf50;
         }
 
         #java {
@@ -54,8 +56,8 @@
         </ul>
     </nav>
 
-    <div class="panel image3">
-        <h1 class="bigtext">My Portfolio</h1>
+    <div class="header">
+        <h1 class="pageTitle fadeIn">My Portfolio</h1>
     </div>
 
     <div class="panel">
@@ -63,37 +65,53 @@
         the panels below for more information!</p>
     </div>
 
-    <div class="panel blue portfolio">
-        <img src="../assets/img/portfolio/logo_icontrolu.png" alt="iControlU Logo"/>
-        <p><strong>Take control of your players. Literally!</strong> iControlU is one of my most popular projects, boasting
-        more than 340,000 total downloads as of 2017. Taking control of other players and using their own identities
-            against them has never been easier. The latest version retails on Spigot and can be downloaded <a href="https://www.spigotmc.org/resources/icu.20034/">on this page.</a>
-            Older versions of the plugin can be found for free on Bukkit <a href="https://dev.bukkit.org/projects/icontrolu">on this page.</a></p>
-    </div>
+    <div class="portfolioContent">
+        <div class="deepblue portfolio">
+            <img src="../assets/img/portfolio/logo_icontrolu.png" alt="iControlU Logo"/>
+            <p><strong>Take control of your players. Literally!</strong> iControlU is one of my most popular projects, boasting
+            more than 360,000 total downloads as of 2017. Taking control of other players and using their own identities
+                against them has never been easier! The latest version retails on Spigot and can be downloaded <a href="https://www.spigotmc.org/resources/.20034/" target="_blank">on this page.</a>
+                Older versions of the plugin can be found for free on Bukkit <a href="https://dev.bukkit.org/projects/icontrolu" target="_blank">on this page.</a></p>
+        </div>
 
-    <div class="panel portfolio">
-        <img src="../assets/img/portfolio/logo_nanobots.png" alt="Nanobots Logo"/>
-        <p>Nanobots is my first collaboration project, in which its concept was created by myself and a few of my friends.
-            This plugin enables players to craft <strong>Nanoblocks</strong>. These dastardly creations can devour specific blocks,
-            or eat through just about everything in their place. Explore Grey Goo on your server today! Nanobots can be
-            downloaded for free on Spigot <a href="https://www.spigotmc.org/resources/nanobots.28511/">here.</a></p>
-    </div>
+        <div class="creepergreen portfolio">
+            <img src="../assets/img/portfolio/logo_nanobots.png" alt="Nanobots Logo"/>
+            <p>Nanobots is my first collaboration project, in which its concept was created by myself and a few of my friends.
+                This plugin enables players to craft <strong>Nanoblocks</strong>. These dastardly creations can devour specific blocks,
+                or eat through just about everything in their place. Explore Grey Goo on your server today! Nanobots can be
+                downloaded for free on Spigot <a href="https://www.spigotmc.org/resources/.28511/" target="_blank">here.</a></p>
+        </div>
 
-    <div class="panel deepblue portfolio">
-        <img src="../assets/img/portfolio/logo_thegrid.png" alt="The Grid Logo"/>
-        <p>A current work-in-progress, and one of my favorite ongoing projects, is The Grid. This plugin provides a
-            server-wide and open-world hacking adventure that is not only easy to install, but it is efficient and effective
-            at what it does. Players can "hack" enemy NPC computers and other users to gain experience, in-game currency,
-            and more. <a href="https://www.spigotmc.org/resources/thegrid.35246/">Check it out</a> on Spigot!</p>
+        <div class="portfolio">
+            <img src="../assets/img/portfolio/logo_thegrid.png" alt="The Grid Logo"/>
+            <p>One of my favorite ongoing projects, this plugin provides a
+                server-wide and open-world hacking adventure that is not only easy to install, but it is efficient and powerful.
+                In this game mode, players can "hack" enemy NPC computers and other users to gain experience, in-game currency,
+                and more. <a href="https://www.spigotmc.org/resources/.35246/" target="_blank">Check it out</a> on Spigot!</p>
+        </div>
+        <div class="creepergreen portfolio">
+            <img src="../assets/img/portfolio/logo_ghostblocks.jpg" alt="Ghostblocks Logo"/>
+            <p><em>Who ya gonna call?</em> Introducing Ghostblocks: a simple mechanic that adds a unique twist to any server! These
+                are not only easy to craft, use, and manage, but are efficient and highly customizable. Create disappearing blocks
+                to hide your secret base, trick your friends, or add a sense of adventure to your server.
+                <a href="https://www.spigotmc.org/resources/.24546/" target="_blank">Buy it now</a> on Spigot!</p>
+        </div>
+        <div class="blue portfolio">
+            <img src="../assets/img/portfolio/logo_yotsuba.png" alt="Yotsuba Logo"/>
+            <p>Standing as the pinnacle of society is the Yotsuba Group from Tsugumi Ohba's series <em>Death Note</em>.
+            Correlated closely to <a href="https://www.spigotmc.org/resources/.43968/" target="_blank">my plugin</a> with a similar name, this
+            fan-made website was another collaboration between some friends and I. Aiming to be a realistic representation of the
+            fictional company, <a href="http://yotsuba.group" target="_blank">this website</a> is a work-in-progress.
+        </div>
     </div>
 
     <div class="panel">
-        <h1>Skills</h1>
+        <h1 class="pageTitle">Skills</h1>
         <p>I have experience in <strong id="html5">HTML5</strong>, <strong id="css3">CSS3</strong>, <strong id="js">JavaScript</strong>/
             <strong id="jq">jQuery</strong>, <strong id="python">Python</strong>, <strong id="java">Java</strong>,
-            <strong id="cs">C#</strong>, and <strong id="swift">Swift</strong>. I enjoy building backend systems, however I also have experience in front-end applications as well.
-            I have received numerous Microsoft certifications in the IT industry, and I aspire to use these skills throughout my
-            professional career. If you are an employer, or are curious to learn more about myself, I invite you to <a href="../contact">send me an email</a>!</p>
+            <strong id="cs">C#</strong>, and <strong id="swift">Swift</strong>. I enjoy building backend systems, however I'm currently working towards improving my
+            front-end development skills. I have attained numerous Microsoft certifications in the IT industry, which can be viewed <a href="https://www.youracclaim.com/user/haden-watne" target="_blank">here</a>.
+            If you are an employer, or are curious to learn more about myself, I invite you to <a href="../contact">contact me</a>!</p>
     </div>
 
     <div class="footer">
