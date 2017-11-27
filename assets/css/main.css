@@ -91,6 +91,10 @@ body {
         background-color: #2274a5;
         color: #022f40;
     }
+
+    .header {
+        overflow-wrap: break-word;
+    }
 }
 
 nav ul li a[href="#"]{
@@ -285,9 +289,12 @@ a:hover {
 }
 
 .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     text-align: center;
-    margin-top: 20%;
-    transform: translate(0, -20%);
+    z-index: -1;
+    transform: translate(-50%, -50%);
 }
 
 .bodylist {
