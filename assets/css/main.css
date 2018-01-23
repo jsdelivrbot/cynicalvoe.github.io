@@ -158,20 +158,19 @@ a:hover {
     color: #022f40;
 }
 
-.darkblue {
-    background-color: #022f40;
-    color: white;
-}
-
 .red {
     background-color: #db4c36;
     color: white;
 }
 
-.red hr {
-    border: 1px solid white;
-    margin: 10px auto;
-    width: 80%;
+.red a {
+    text-decoration: none;
+    color: #ffbb59;
+    font-weight: bold;
+}
+
+.red a:hover {
+    color: #b92a14;
 }
 
 .lightgray {
@@ -204,14 +203,14 @@ a:hover {
 }
 
 .panel p {
-    text-align: left;
+    text-align: justify;
     width: 85%;
     max-width: 960px;
     line-height: 1.9em;
-    margin: auto;
+    margin: 10px auto;
 }
 
-.panel table {
+.tformat table {
     border-collapse: collapse;
     margin: 0 auto;
     padding: 0;
@@ -219,23 +218,24 @@ a:hover {
     max-width: 960px;
 }
 
-.panel table td {
+.tformat table td {
     height: 50px;
 }
 
-.panel table thead {
-    font-weight: bold;
+.tformat table thead {
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.8em;
+    word-break: break-all;
 }
 
-.portfolioContent {
+.tripanelContent {
     text-align: center;
     width: 80%;
     margin: 0 auto;
 }
 
-.portfolio {
+.tripanelItem {
     width: 350px;
     height: 500px;
     padding: 10px;
@@ -244,7 +244,7 @@ a:hover {
     display: inline-table;
 }
 
-.portfolioSmall {
+.tripanelItemSmall {
     width: 350px;
     padding: 10px;
     margin: 5px;
@@ -252,13 +252,13 @@ a:hover {
     display: inline-table;
 }
 
-.portfolio img {
+.tripanelItem img {
     width: 200px;
     border-radius: 5px;
 }
 
-.portfolio p {
-    text-align: left;
+.tripanelItem p {
+    text-align: justify;
 }
 
 .header {
@@ -320,51 +320,12 @@ a:hover {
 .bodylist li a:hover {
     color: #065a82;
 }
+
 /* Images */
 
 .twist {
     width: 200px;
     border-radius: 20px 40px 20px 40px;
-}
-
-.image1 {
-    padding: 10% 0;
-    background: url("../img/img_staticweb1.png") fixed bottom;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-.image2 {
-    padding: 10% 0;
-    background: url("../img/img_staticweb2.png") fixed bottom;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-.image3 {
-    padding: 10% 0;
-    background: url("../img/img_staticweb3.png") fixed bottom;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-.image4 {
-    padding: 10% 0;
-    background: url("../img/img_staticweb4.png") fixed bottom;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-.image1 h1, .image2 h1, .image3 h1, .image4 h1 {
-    width: 55%;
-    max-width: 960px;
-    padding: 15px;
-    background: rgba(7, 7, 7, 0.5);
-    border-radius: 10px;
 }
 
 /* Footer */
