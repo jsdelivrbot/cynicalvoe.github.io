@@ -283,9 +283,13 @@ a:hover {
     animation: 3s fadeIn;
 }
 
-.hylian{
+.hylian {
     font-family: Hylian, sans-serif;
     font-size: 1.5em;
+}
+
+.smallText {
+    font-size: 0.8em;
 }
 
 .centered {
