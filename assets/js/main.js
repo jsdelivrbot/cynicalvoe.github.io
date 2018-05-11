@@ -35,11 +35,6 @@ if(title==="contact me"){
                     },
                     "polygon": {
                         "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
                     }
                 },
                 "opacity": {
@@ -71,7 +66,7 @@ if(title==="contact me"){
                 },
                 "move": {
                     "enable": true,
-                    "speed": 6,
+                    "speed": 1,
                     "direction": "none",
                     "random": false,
                     "straight": false,
@@ -87,7 +82,7 @@ if(title==="contact me"){
                 "detect_on": "canvas",
                 "events": {
                     "onhover": {
-                        "enable": true,
+                        "enable": false,
                         "mode": "repulse"
                     },
                     "onclick": {
