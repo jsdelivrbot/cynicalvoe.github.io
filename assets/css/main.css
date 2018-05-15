@@ -127,6 +127,10 @@ a:hover {
     text-shadow: -4px 5px #999;
     overflow-wrap: break-word;
 }
+.hylian {
+    font-family: Hylian, sans-serif;
+    font-size: 1.5em;
+}
 
 /* Content */
 .panel {
