@@ -1,6 +1,6 @@
 var title = document.getElementsByTagName("title")[0].textContent.toLowerCase();
 
-if(title==="contact me"){
+if(title==="connect with me"){
     cheet("e m a i l", function(){
         var element = document.createElement("p");
         var address = document.createElement("a");
