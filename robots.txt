@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /files/
 Disallow: /assets/
-Disallow: /contact/
+Disallow: /connect/
