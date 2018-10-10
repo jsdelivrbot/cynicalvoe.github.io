@@ -282,3 +282,8 @@ a:hover {
     50% {background-color: #cc2f10}
     100% {background-color: #e0801a}
 }
+
+.fireGIF {
+    background: #e89600 url(../img/fire.gif) no-repeat center;
+    background-size: cover;
+}

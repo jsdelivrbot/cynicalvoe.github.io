@@ -1,19 +1,6 @@
 var title = document.getElementsByTagName("title")[0].textContent.toLowerCase();
 
-if(title==="connect with me"){
-    cheet("e m a i l", function(){
-        var element = document.createElement("p");
-        var address = document.createElement("a");
-        var ap1 = "bukkit.firebr";
-        var ap2 = "eath15@gmail.com";
-        element.textContent = "Email: ";
-        address.textContent = ap1+ap2;
-        address.setAttribute("href", "mailto:"+address.textContent);
-        element.appendChild(address);
-        document.getElementById("email").appendChild(element);
-
-    });
-}else if(title==="home"){
+if(title==="home"){
     particlesJS('particles-js',
         {
             "particles": {
@@ -123,7 +110,7 @@ if(title==="connect with me"){
 }
 
 cheet("f i r e", function(){
-    document.getElementsByTagName("body")[0].style.animation = "3s fire infinite";
+    document.getElementsByTagName("body")[0].className = 'fireGIF';
 });
 
 cheet("h y l i a n", function(){
