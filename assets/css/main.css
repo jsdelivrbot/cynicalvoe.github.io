@@ -284,6 +284,6 @@ a:hover {
 }
 
 .fireGIF {
-    background: #e89600 url(../img/fire.gif) no-repeat center;
+    background: #e89600 url(../img/fire.gif) no-repeat center fixed;
     background-size: cover;
 }
