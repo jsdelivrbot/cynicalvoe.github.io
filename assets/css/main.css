@@ -121,6 +121,8 @@ a:hover {
     color: white;
     font-size: 12px;
 }
+
+/* Text classes */
 .pageTitle {
     margin: 30px auto;
     text-align: center;
@@ -143,6 +145,9 @@ a:hover {
     font-size: 1.4em;
     font-family: 'Press Start 2P', sans-serif;
     text-transform: uppercase;
+}
+.smallText {
+    font-size: 0.8em;
 }
 
 /* Content */
@@ -192,12 +197,12 @@ a:hover {
     border-radius: 5px;
     display: inline-table;
 }
-.tripanelItem img {
+.tripanelItem img, .widePanel img {
     width: 200px;
     border-radius: 5px;
 }
 .tripanelItem p {
-    text-align: justify;
+    text-align: left;
 }
 .widePanel{
     width: 90%;
@@ -227,9 +232,6 @@ a:hover {
 }
 .bodylist li a:hover {
     color: #065a82;
-}
-.smallText {
-    font-size: 0.8em;
 }
 
 /* Color classes */
