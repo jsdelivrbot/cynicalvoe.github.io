@@ -1,6 +1,8 @@
 /* Fonts */
 @import url("//fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 @font-face {
     font-family: Hylian;
     src: url(../font/hylian.ttf);
@@ -131,6 +133,17 @@ a:hover {
     font-family: Hylian, sans-serif;
     font-size: 1.5em;
 }
+.largeDesc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: #444;
+}
+.headerText {
+    text-align: center !important;
+    font-size: 1.4em;
+    font-family: 'Press Start 2P', sans-serif;
+    text-transform: uppercase;
+}
 
 /* Content */
 .panel {
@@ -146,20 +159,15 @@ a:hover {
     margin: 10px auto;
 }
 .tformat table {
-    border-collapse: collapse;
+    border-spacing: 15px 0;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
     max-width: 960px;
+    text-align: left;
 }
 .tformat table td {
     height: 50px;
-}
-.tformat table thead {
-    text-transform: uppercase;
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 14px;
-    word-break: break-all;
+    margin: 0 10px;
 }
 .tripanelContent {
     text-align: center;
@@ -169,7 +177,8 @@ a:hover {
 .tripanelItem {
     width: 90%;
     max-width: 350px;
-    height: 500px;
+    min-height: 250px;
+    max-height: 500px;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -189,6 +198,15 @@ a:hover {
 }
 .tripanelItem p {
     text-align: justify;
+}
+.widePanel{
+    width: 90%;
+    max-width: 960px;
+    min-height: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-table;
 }
 .bodylist {
     margin: 0 auto;
