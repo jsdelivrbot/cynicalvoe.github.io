@@ -77,7 +77,7 @@ a:hover {
         color: #065a82;
     }
 
-    .centered {
+    .middle {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -102,13 +102,26 @@ a:hover {
     nav ul li a {
         padding: 8px 75px;
     }
+
+    .middle {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .pageTitle {
+        font-size: 2.3em !important;
+    }
 }
 
 /* Site-wide classes */
+.centered {
+    text-align: center !important;
+}
 .curved {
     width: 200px;
     border-radius: 20px 40px 20px 40px;
 }
+
 .footer {
     width: 100%;
     padding: 10px 0;
@@ -154,7 +167,7 @@ a:hover {
 .panel {
     text-align: center;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 .panel p {
     text-align: justify;
@@ -162,6 +175,9 @@ a:hover {
     max-width: 960px;
     line-height: 1.9em;
     margin: 10px auto;
+}
+.panel img{
+    max-width: 300px;
 }
 .tformat table {
     border-spacing: 15px 0;
@@ -189,14 +205,6 @@ a:hover {
     border-radius: 5px;
     display: inline-table;
 }
-.tripanelItemSmall {
-    width: 90%;
-    max-width: 350px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-table;
-}
 .tripanelItem img, .widePanel img {
     width: 200px;
     border-radius: 5px;
@@ -207,7 +215,6 @@ a:hover {
 .widePanel{
     width: 90%;
     max-width: 960px;
-    min-height: 250px;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -222,16 +229,18 @@ a:hover {
     list-style-type: none;
     padding: 0 20px;
     text-align: center;
-    font-size: 2.3em;
+    font-size: 2.0em;
     display: inline-table;
 }
-.bodylist li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.bodylist i{
+    font-size: 2.3em;
 }
-.bodylist li a:hover {
-    color: #065a82;
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
 }
 
 /* Color classes */
