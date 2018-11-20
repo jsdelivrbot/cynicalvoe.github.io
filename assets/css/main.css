@@ -162,6 +162,9 @@ a:hover {
 .smallText {
     font-size: 0.8em;
 }
+.bigText {
+    font-size: 2.0em;
+}
 
 /* Content */
 .panel {
@@ -192,7 +195,7 @@ a:hover {
 }
 .tripanelContent {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .tripanelItem {
@@ -222,14 +225,13 @@ a:hover {
 }
 .bodylist {
     margin: 0 auto;
-    width: 100%;
+    max-width: 70%;
     padding: 0;
 }
 .bodylist li {
     list-style-type: none;
-    padding: 0 20px;
+    padding: 10px 20px;
     text-align: center;
-    font-size: 2.0em;
     display: inline-table;
 }
 .bodylist i{
