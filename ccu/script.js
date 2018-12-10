@@ -4,7 +4,7 @@
 // @grant    none
 // @author   Cynicalvoe
 // @include  https://selfservice.ccu.edu/Student/Planning/DegreePlans
-// @require  https://cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js
+// @require  https://cdn.jsdelivr.net/gh/namuol/cheet.js@master/cheet.min.js
 // ==/UserScript==
 
 cheet("shift", function(){
